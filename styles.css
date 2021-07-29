@@ -1,0 +1,53 @@
+body{
+    background-color: #1d2022;
+    color: #75ba75;
+    font-family: 'Lobster', cursive;
+}
+
+.heading{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.namess{
+    text-align: center;
+}
+
+.names{
+    display: inline-block;
+    margin: 3rem 8rem 1.4rem;
+}
+
+.image{
+    margin-top: 1.2rem;
+    text-align: center;
+}
+
+.image1,.image2{
+    margin: 0 3rem;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*********************************************/
+@media only screen and (max-width: 400px){
+    .heading{
+        font-size: 3.5rem;
+        word-spacing: 0.5rem;
+    }
+    .names{
+        font-size: 1.2rem;
+        margin: 4rem 3rem 0;
+    }
+    .image1,.image2{
+        width: 40%;
+        margin: 0 1rem;
+    }
+    .copyright{
+        font-size: 0.9rem;
+    }
+}
